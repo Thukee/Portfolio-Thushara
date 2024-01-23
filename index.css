@@ -147,11 +147,20 @@ header {
   grid-template-columns: 1fr 1fr;
   gap: 35px;
   justify-content: space-between;
-  align-items: center;
 }
 
-.about-container img {
-  width: 100%;
+.about-left {
+  border: 2px solid black;
+  border-radius: 20px;
+  height: 400px;
+  width: 60%;
+  text-align: center;
+  padding: 30px;
+  justify-content: space-between;
+}
+
+.about-left p {
+  margin-top: 30px;
 }
 
 .basic-edu {
@@ -171,12 +180,15 @@ header {
 
 .edu-box img {
   margin: auto;
+  height: 200px;
+  width: auto;
 }
 
 .about-p {
   margin-top: 20px;
   font-size: 15px;
   line-height: 20px;
+  text-align: justify;
 }
 
 section {
